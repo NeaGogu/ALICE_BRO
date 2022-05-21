@@ -10,10 +10,14 @@ public class playerController : MonoBehaviour
     [SerializeField]
     private float movementSpeed;
     public TextMeshProUGUI tmp;
+    public fade f;
+    public spawner spawn;
     private Vector2 movement;
     private Rigidbody2D rbody;
     private float timer;
+    private float glitchTimer = 0;
     private int time;
+    private bool glitch = false;
 
     private void Awake()
     {
@@ -25,9 +29,21 @@ public class playerController : MonoBehaviour
     {
         tmp.text = time.ToString();
         timer += Time.deltaTime;
-        if (timer >= .8f) {
+        glitchTimer += Time.deltaTime;
+        if (timer >= 1f) {
             time += 1;
             timer = 0;
+        }
+        if ( time == 20) {
+            f.run();
+            spawn.timer = 10;
+            time = 0;
+            glitch = true;
+            glitchTimer = 0;
+        }
+        if (glitch && glitchTimer >= 0.3f) {
+            time *= 2;
+            glitchTimer = 0;
         }
         Movement();
     }
