@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class animAlice : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public SpriteRenderer alice;
+    float timer;
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        timer += Time.deltaTime;
+        if (timer >= .2 && alice.flipY) {
+            alice.flipY = false;
+        }
+        if (timer >= .2 && !alice.flipY)
+        {
+            alice.flipY = true;
+        }
     }
 }
