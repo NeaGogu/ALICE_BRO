@@ -377,9 +377,9 @@ GameObject:
   - component: {fileID: 623183687}
   - component: {fileID: 623183685}
   - component: {fileID: 623183684}
+  - component: {fileID: 623183691}
   - component: {fileID: 623183683}
   - component: {fileID: 623183689}
-  - component: {fileID: 623183690}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -495,7 +495,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2052870419, guid: 0e30f7f3df0b56940955ff46a4ca73ee, type: 3}
+  m_Sprite: {fileID: -1909009929, guid: bab0524fb15e76548b01ddfcf58fbff2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -538,7 +538,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.3, y: 0.41}
+    oldSize: {x: 0.42, y: 0.42}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -552,26 +552,18 @@ PolygonCollider2D:
       - {x: -0.12, y: -0.205}
       - {x: 0.14999999, y: -0.205}
       - {x: 0.14999999, y: 0.205}
---- !u!95 &623183690
-Animator:
-  serializedVersion: 4
+--- !u!114 &623183691
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 623183682}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4d7ed348bed1be84995f2088eeb94a46, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 856a3be5dce38b8428991f974b7db775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &713026608
 GameObject:
   m_ObjectHideFlags: 0
@@ -1052,7 +1044,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &2042024424
 SpriteRenderer:
   m_ObjectHideFlags: 0
