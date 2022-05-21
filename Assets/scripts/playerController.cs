@@ -51,7 +51,7 @@ public class playerController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("obstacle"))
         {
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("scene1");
         }
     }
 }
