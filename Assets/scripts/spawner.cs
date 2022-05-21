@@ -67,5 +67,6 @@ public class spawner : MonoBehaviour
         int powerUpSpawnPoint = Random.Range(0, spawnPoints.Length);
         GameObject powerUp = Instantiate(powerUps[randPowerUp], spawnPoints[powerUpSpawnPoint].position + offset,
             transform.rotation);
+        
     }
 }

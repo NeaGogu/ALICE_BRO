@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 using TMPro;
+using Unity.VisualScripting;
 
 public class playerController : MonoBehaviour
 {
@@ -15,6 +16,10 @@ public class playerController : MonoBehaviour
     private float timer;
     private int time;
 
+    public GameObject walls;
+    public bool hitPower;
+    public float powerupTimer;
+
     private void Awake()
     {
         // Hello
@@ -25,9 +30,15 @@ public class playerController : MonoBehaviour
     {
         tmp.text = time.ToString();
         timer += Time.deltaTime;
+        powerupTimer -= Time.deltaTime;
         if (timer >= .8f) {
             time += 1;
             timer = 0;
+        }
+
+        if (powerupTimer <= 0)
+        {
+            hitPower = false;
         }
         Movement();
     }
@@ -55,9 +66,12 @@ public class playerController : MonoBehaviour
             SceneManager.LoadScene("scene1");
         }
 
-        if (collision.gameObject.CompareTag("powerup"))
+        if (collision.gameObject.CompareTag("stopWall"))
         {
             // Get Power up
+            hitPower = true;
+            powerupTimer = 2;
+
         }
     }
 }
