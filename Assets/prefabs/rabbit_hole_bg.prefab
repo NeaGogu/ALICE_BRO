@@ -120,7 +120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8a5bee5b1565cf4cb6141b34e641a03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8
+  speed: 15
   background: {fileID: 1199480961245464213}
   oldBG: {fileID: 0}
 --- !u!61 &8271556044498683500
