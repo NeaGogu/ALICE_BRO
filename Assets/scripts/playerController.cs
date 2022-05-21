@@ -54,5 +54,10 @@ public class playerController : MonoBehaviour
         {
             SceneManager.LoadScene("scene1");
         }
+
+        if (collision.gameObject.CompareTag("powerup"))
+        {
+            // Get Power up
+        }
     }
 }
