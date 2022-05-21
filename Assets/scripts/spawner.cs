@@ -11,12 +11,11 @@ public class spawner : MonoBehaviour
     public GameObject[] powerUps;
     
     public float spawnSpeed;
-    float timer;
+    float timer = 2;
 
     // Start is called before the first frame update
     void Start()
     {
-        timer = spawnSpeed;
     }
 
     // Update is called once per frame
