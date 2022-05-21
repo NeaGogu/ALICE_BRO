@@ -6,8 +6,9 @@ public class walls : MonoBehaviour
 {
     public int speed = 10;
     public GameObject wall;
-    public GameObject oldwalls;
-    public GameObject newWall;
+    public GameObject spawnpointMain;
+    private GameObject oldwalls;
+    private GameObject newWall;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +32,7 @@ public class walls : MonoBehaviour
             newWall = Instantiate(wall, transform.position + new Vector3(0, -12, 0), transform.rotation);
             newWall.GetComponent<walls>().oldwalls = gameObject;
             newWall.transform.localScale += new Vector3 (-0.01f, 0, 0);
+            spawnpointMain.transform.localScale += new Vector3(-0.01f, 0, 0);
         }
     }
 }
