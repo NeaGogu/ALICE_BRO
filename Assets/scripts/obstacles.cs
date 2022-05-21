@@ -23,4 +23,11 @@ public class obstacles : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    private void OnCollisionStay2D(Collision2D col)
+    {
+        if (col.gameObject.CompareTag("wall")) {
+            Destroy(gameObject);
+        }
+    }
 }
