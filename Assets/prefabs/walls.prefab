@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 4270261456671406791}
   m_Layer: 0
   m_Name: walls
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -188,6 +188,8 @@ MonoBehaviour:
   speed: 15
   wall: {fileID: 7568665619375729760}
   spawnpointMain: {fileID: 0}
+  direction: 1
+  pc: {fileID: 0}
 --- !u!50 &4270261456671406791
 Rigidbody2D:
   serializedVersion: 4

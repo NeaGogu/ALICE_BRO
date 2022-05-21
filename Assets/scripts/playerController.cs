@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -20,12 +21,18 @@ public class playerController : MonoBehaviour
     public bool hitPower;
     public float powerupTimer;
 
+
+    public bool aliceInvic;
+    
+    
     private void Awake()
     {
         // Hello
         rbody = GetComponent<Rigidbody2D>();
     }
-
+    
+    
+    
     void FixedUpdate()
     {
         tmp.text = time.ToString();
@@ -35,11 +42,21 @@ public class playerController : MonoBehaviour
             time += 1;
             timer = 0;
         }
-
+        
+        // Power up timer (countdown)
         if (powerupTimer <= 0)
         {
             hitPower = false;
         }
+        
+        if (aliceInvic)
+        {
+            if (powerupTimer <= 0)
+            {
+                aliceInvic = false;
+            }
+        }
+        
         Movement();
     }
 
@@ -63,15 +80,33 @@ public class playerController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("obstacle"))
         {
+            if (aliceInvic)
+            {
+                Destroy(collision.gameObject);
+                return;
+            }
             SceneManager.LoadScene("scene1");
         }
+    }
 
-        if (collision.gameObject.CompareTag("stopWall"))
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        // ADD VISUAL INDICATOR
+        if (col.gameObject.CompareTag("stopWall"))
         {
-            // Get Power up
+            // Stop the walls power up (and push them back)
             hitPower = true;
             powerupTimer = 2;
-
+            Destroy(col.gameObject);
+        }
+        // ADD VISUAL INDICATOR
+        if (col.gameObject.CompareTag("powerup"))
+        {
+            // The invicibility powerup (Alice becomes god)
+            aliceInvic = true;
+            powerupTimer = 2;
+            Debug.Log("done");
+            Destroy(col.gameObject);
         }
     }
 }

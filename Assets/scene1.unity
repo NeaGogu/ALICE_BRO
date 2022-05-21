@@ -400,6 +400,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: 5
   tmp: {fileID: 539229782}
+  walls: {fileID: 0}
+  hitPower: 0
+  powerupTimer: 0
 --- !u!114 &623183684
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -869,6 +872,7 @@ MonoBehaviour:
   - {fileID: 622505484551394046, guid: 458d077f7c65bb1459429f50232784d3, type: 3}
   - {fileID: 6062610391925316023, guid: 55658e30fd2040649890e45268af76cf, type: 3}
   - {fileID: 1874243589862041180, guid: fd1b7228b4350ba42aa632a5fb500ee4, type: 3}
+  powerUps: []
   spawnSpeed: 0.8
 --- !u!4 &1860301606
 Transform:
@@ -1089,6 +1093,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7568665619375729760, guid: 011dc3fca949e054b87fca9e35694716, type: 3}
       propertyPath: m_Name
+      value: walls
+      objectReference: {fileID: 0}
+    - target: {fileID: 7568665619375729760, guid: 011dc3fca949e054b87fca9e35694716, type: 3}
+      propertyPath: m_TagString
       value: walls
       objectReference: {fileID: 0}
     - target: {fileID: 7568665619375729761, guid: 011dc3fca949e054b87fca9e35694716, type: 3}

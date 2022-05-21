@@ -7,6 +7,10 @@ TagManager:
   - obstacle
   - destroy
   - wall
+  - walls
+  - stopWall
+  - Undefined
+  - powerup
   layers:
   - Default
   - TransparentFX

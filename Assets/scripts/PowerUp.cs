@@ -5,7 +5,7 @@ using UnityEngine;
 public class PowerUp : MonoBehaviour
 {
     // Start is called before the first frame update
-    public int speed = 10;
+    public int speed = 9;
     void Start()
     {
         
