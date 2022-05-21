@@ -34,9 +34,11 @@ public class spawner : MonoBehaviour
 
     void Spawn()
     {
-        Vector3 offset = new Vector3(Random.Range(-1,1), 0, 0);
-        int randEnemy = Random.Range(0, obstacles.Length);
+        Vector3 offset = new Vector3(Random.Range(-.5f,.5f), 0, 0);
+        int randObstacle = Random.Range(0, obstacles.Length);
         int randSpawnPoint = Random.Range(0, spawnPoints.Length);
-        GameObject enemy = Instantiate(obstacles[randEnemy], spawnPoints[randSpawnPoint].position + offset, transform.rotation);
+        Quaternion angle = transform.rotation;
+        angle.eulerAngles += new Vector3(0, 0, Random.Range(0, 360));
+        GameObject obstacle = Instantiate(obstacles[randObstacle], spawnPoints[randSpawnPoint].position + offset, angle);
     }
 }
