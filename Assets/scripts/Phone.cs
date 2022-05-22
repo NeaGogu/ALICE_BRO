@@ -9,13 +9,14 @@ public class Phone :Collider {
 	public string[] sceneNames;
 	private string scene;
 	
-	public DialogueTrigger trigger;
+	public DialogueTrigger triggerRabbit;
+
 	public DialogueManager dialogueManager;
 	private bool startedConversation = false;
 	protected override void OnCollide(Collider2D coll) {
 		if (!startedConversation )	{
 			startedConversation = true;
-			trigger.TriggerDialogue();
+			triggerRabbit.TriggerDialogue();
 		}
 		
 	}

@@ -1038,14 +1038,17 @@ MonoBehaviour:
   dialogue:
     name: Rabbit
     sentences:
-    - Hello, darling!
-    - You are in my house now, then you have to play my games...
-    - 'Choose or die miserably:
+    - <<Alice>> Hh...hello?
+    - <<Rabbit>> Hello, darling!
+    - <<Rabbit>> You are in my house now, then you have to play my games...
+    - '<<Rabbit>> Choose or die miserably:
 
-      1> Lollipop or 2> Mercedes
+      1> Lollipop
+
+      2> Mercedes
 
 '
-    - See you soon! *giggles*
+    - <<Rabbit>> See you soon! *giggles*
 --- !u!114 &896355435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1075,7 +1078,7 @@ MonoBehaviour:
   sceneNames:
   - Endfall1
   - Endfall1
-  trigger: {fileID: 896355434}
+  triggerRabbit: {fileID: 896355434}
   dialogueManager: {fileID: 769791443}
 --- !u!114 &896355436
 MonoBehaviour:
