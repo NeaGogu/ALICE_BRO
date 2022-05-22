@@ -20,6 +20,7 @@ public class playerController : MonoBehaviour
     private float glitchTimer = 0;
     private int time;
     private bool glitch = false;
+    public String scene;
 
     public GameObject walls;
     public bool hitPower;
@@ -101,7 +102,7 @@ public class playerController : MonoBehaviour
                 Destroy(collision.gameObject);
                 return;
             }
-            SceneManager.LoadScene("scene1");
+            SceneManager.LoadScene(scene);
         }
     }
 
@@ -127,4 +128,4 @@ public class playerController : MonoBehaviour
             Destroy(col.gameObject);
         }
     }
-}
+}                   

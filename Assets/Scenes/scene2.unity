@@ -641,6 +641,7 @@ MonoBehaviour:
   tmp: {fileID: 539229782}
   f: {fileID: 2042024426}
   spawn: {fileID: 1860301605}
+  scene: scene2
   walls: {fileID: 1211917300}
   hitPower: 0
   powerupTimer: 0
@@ -1288,14 +1289,12 @@ MonoBehaviour:
   - {fileID: 1632874940}
   - {fileID: 1632874940}
   obstacles:
-  - {fileID: 5623706561663203184, guid: ba956c15887efbc4db50d0de9b7b2f45, type: 3}
-  - {fileID: 3739346863873670356, guid: e7d7d44f1be47eb46a550c6de7bc1eef, type: 3}
-  - {fileID: 622505484551394046, guid: 458d077f7c65bb1459429f50232784d3, type: 3}
-  - {fileID: 6062610391925316023, guid: 55658e30fd2040649890e45268af76cf, type: 3}
-  - {fileID: 6344583139884809394, guid: b9e7ff8e98305304892d7da0473d5902, type: 3}
-  - {fileID: 1874243589862041180, guid: fd1b7228b4350ba42aa632a5fb500ee4, type: 3}
-  - {fileID: 3533659784816184000, guid: db213d26e4a6bf04da9061ce2ab0e482, type: 3}
-  - {fileID: 6596342066766983130, guid: 1bfbe3d319bc13f439fea6752cf9725d, type: 3}
+  - {fileID: 893777344437499308, guid: e3a2c605552e4794f84aff51c716cb18, type: 3}
+  - {fileID: 1648735794923967356, guid: cc7988c4f089d054684ace489316190c, type: 3}
+  - {fileID: 879296779529545223, guid: 3425d87c3471f9340bdd09ec8c017a1d, type: 3}
+  - {fileID: 7758159789629876237, guid: 7ae455c29e381ca43b335840d0d54dad, type: 3}
+  - {fileID: 8661048893481682622, guid: a5b4e4446cb84504a9b1f6d2d0b2b8bb, type: 3}
+  - {fileID: 3953552761781752105, guid: 8065cda9939dd7c418163a1487557f6a, type: 3}
   powerUps:
   - {fileID: 1649542338234453794, guid: b26b631ec1ec46feb17618fbfe9507b0, type: 3}
   - {fileID: 6724293210617794140, guid: 6cb81cb0413d9b046be0f0ca249092d3, type: 3}
@@ -1549,6 +1548,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1199480961245464212, guid: d980b1d04ce7caf42aaf15791a96b82a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f3bd36876c8b59248b01c26dace776a6, type: 3}
+    - target: {fileID: 1199480961245464212, guid: d980b1d04ce7caf42aaf15791a96b82a, type: 3}
       propertyPath: m_SortingOrder
       value: -10
       objectReference: {fileID: 0}
@@ -1561,12 +1564,20 @@ PrefabInstance:
       value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1199480961245464215, guid: d980b1d04ce7caf42aaf15791a96b82a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.2320076
+      objectReference: {fileID: 0}
+    - target: {fileID: 1199480961245464215, guid: d980b1d04ce7caf42aaf15791a96b82a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.0205
+      objectReference: {fileID: 0}
+    - target: {fileID: 1199480961245464215, guid: d980b1d04ce7caf42aaf15791a96b82a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.0707
       objectReference: {fileID: 0}
     - target: {fileID: 1199480961245464215, guid: d980b1d04ce7caf42aaf15791a96b82a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.4
+      value: -4.4141
       objectReference: {fileID: 0}
     - target: {fileID: 1199480961245464215, guid: d980b1d04ce7caf42aaf15791a96b82a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1617,6 +1628,14 @@ PrefabInstance:
       propertyPath: spawnpointMain
       value: 
       objectReference: {fileID: 1860301604}
+    - target: {fileID: 7568665618434302649, guid: 011dc3fca949e054b87fca9e35694716, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 9.771096
+      objectReference: {fileID: 0}
+    - target: {fileID: 7568665618434302649, guid: 011dc3fca949e054b87fca9e35694716, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.8856
+      objectReference: {fileID: 0}
     - target: {fileID: 7568665618434302654, guid: 011dc3fca949e054b87fca9e35694716, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1700,6 +1719,14 @@ PrefabInstance:
     - target: {fileID: 7568665619502471459, guid: 011dc3fca949e054b87fca9e35694716, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7568665619502471485, guid: 011dc3fca949e054b87fca9e35694716, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 9.296404
+      objectReference: {fileID: 0}
+    - target: {fileID: 7568665619502471485, guid: 011dc3fca949e054b87fca9e35694716, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.6482
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7568665618434302654, guid: 011dc3fca949e054b87fca9e35694716, type: 3}

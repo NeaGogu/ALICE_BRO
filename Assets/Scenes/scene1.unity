@@ -641,6 +641,7 @@ MonoBehaviour:
   tmp: {fileID: 539229782}
   f: {fileID: 2042024426}
   spawn: {fileID: 1860301605}
+  scene: scene1
   walls: {fileID: 1211917300}
   hitPower: 0
   powerupTimer: 0
