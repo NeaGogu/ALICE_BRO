@@ -1077,8 +1077,8 @@ MonoBehaviour:
     minNormalAngle: 0
     maxNormalAngle: 0
   sceneNames:
-  - Endfall1
-  - Endfall1
+  - scene2
+  - scene3
   triggerRabbit: {fileID: 896355434}
   animator: {fileID: 896355437}
   dialogueManager: {fileID: 769791443}

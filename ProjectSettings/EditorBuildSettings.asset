@@ -11,5 +11,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Endfall1.unity
     guid: 582dbcac306f5e8429a63903ca80e3f4
+  - enabled: 1
+    path: Assets/Scenes/scene1.unity
+    guid: bc8e2fb4471681b46aa2d11a910d18fe
+  - enabled: 1
+    path: Assets/Scenes/scene3.unity
+    guid: 184ebaa7d39b6a144979b4b8d14e2860
+  - enabled: 1
+    path: Assets/Scenes/scene2.unity
+    guid: f0b50d365f266464fa89ab82f65056f5
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 02b54c8cf0a25bd43868460be4584511, type: 2}
