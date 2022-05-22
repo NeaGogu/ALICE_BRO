@@ -49,6 +49,7 @@ public class playerController : MonoBehaviour
         // Power up timer (countdown)
         if (powerupTimer <= 0)
         {
+            gameObject.transform.GetChild(1).gameObject.GetComponent<SpriteRenderer>().enabled = false;
             hitPower = false;
         }
         
@@ -57,6 +58,7 @@ public class playerController : MonoBehaviour
             if (powerupTimer <= 0)
             {
                 aliceInvic = false;
+                gameObject.transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().enabled = false;
             }
         }
         
@@ -109,6 +111,7 @@ public class playerController : MonoBehaviour
         if (col.gameObject.CompareTag("stopWall"))
         {
             // Stop the walls power up (and push them back)
+            gameObject.transform.GetChild(1).gameObject.GetComponent<SpriteRenderer>().enabled = true;
             hitPower = true;
             powerupTimer = 2;
             Destroy(col.gameObject);
@@ -117,9 +120,10 @@ public class playerController : MonoBehaviour
         if (col.gameObject.CompareTag("powerup"))
         {
             // The invicibility powerup (Alice becomes god)
+            gameObject.transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().enabled = true;
+            Debug.Log(gameObject.transform.GetChild(0).gameObject);
             aliceInvic = true;
             powerupTimer = 2;
-            Debug.Log("done");
             Destroy(col.gameObject);
         }
     }

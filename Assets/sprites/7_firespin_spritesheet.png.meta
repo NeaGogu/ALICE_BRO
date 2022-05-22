@@ -1,0 +1,2004 @@
+fileFormatVersion: 2
+guid: 66f452436b2e42044b1a4852944ac172
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 726
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89bcf6081100026479a986b725c55710
+      internalID: -1653137464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 726
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b560606e0135dd447871c939753f0e63
+      internalID: -1578105693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 726
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9657555a031c8c43b76a4aac682ed7d
+      internalID: 1017225109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 726
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98018dc64606e43438cac3fb3c4700be
+      internalID: 2066736773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 726
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0097b31a0ff95c34089e4886eb7d11e7
+      internalID: -1431239602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 727
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c94b1aeee1852347a475e984f2335e8
+      internalID: -233095404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 727
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f4d8636d489274d802d2988c030fe6
+      internalID: -1491086057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 726
+        width: 38
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a281ab6c59e84fb459862c793ece99de
+      internalID: -1922864347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 627
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf684bafa831f94d95bc704bdb940aa
+      internalID: -1246225490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 627
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420f9f0538796c54396ccfb7e763768a
+      internalID: -112567194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 627
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6d69c40584aac4f8dd143c3c0d1f78
+      internalID: 1249835390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 627
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aefeb06705b265d4fa7cf68e52677aea
+      internalID: -536086844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 627
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd766bae8ac8a149993310bfc9bc606
+      internalID: -914392866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 627
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e481e49b3c8c6124a8abd95de49c3540
+      internalID: -1845856079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 627
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c338ab46113c47440806dd1633188b73
+      internalID: -249841770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 630
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72228a8b5e3262c448caabc4de3e0596
+      internalID: 1228294263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 530
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e565670c676664284815140cec5e19
+      internalID: -1950731507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 529
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260b41ebaec354249b56ea618bedc139
+      internalID: -25054611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 529
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53bbf9571ce9e8b40ac3d5fca2923419
+      internalID: -14547078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 530
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c16ff7858b716489cf29018da454ad
+      internalID: -2103595248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 530
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7754ea45d789d954f9bef6fdbd20cb95
+      internalID: -1290458314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 530
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123ecb0f5470fc445a1a3ba01db4a638
+      internalID: 1055425880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 530
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea6f587199e2164e9534eeb6edb4b54
+      internalID: -1285970853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 529
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5a242aaeb7e904ea59414b4e9afc8b
+      internalID: 631915424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 528
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4fcd60c6354b246be0301f2fef30f9
+      internalID: 1353307853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 426
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48961a5ba155cb4da316de9ce53728c
+      internalID: -862801420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 426
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c37a2ef97c58f24aafce717dad2ab96
+      internalID: -1249798610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 426
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dea3012c7570984fb7d0fd992da2cb1
+      internalID: -924059324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 425
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88fc490bfda93b94bbcf7cf077bd3f2d
+      internalID: -73428153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 425
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ae2afb62cd6ed4b885723157539cc9
+      internalID: 545858387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 426
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1cec9725584dec4fa2c8c1a198fc930
+      internalID: -1211111725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 426
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a512c5fb7e2e284fb270a8ec2aac4b9
+      internalID: 894445434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 426
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85dff7f15e04c764596b6cad9dbba850
+      internalID: -1810878427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 326
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b999c7e187533434581c5681410eed32
+      internalID: 362218226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 326
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4de19a633fd6574dbc4f4eb8137ed76
+      internalID: 346243237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 326
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc5cdb733e4fc5439ce0f9dd83d52a7
+      internalID: -1396001744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 326
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afbe6b26a216fb340b8a6bc648734076
+      internalID: -2009269780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 326
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c604764962df09f46a232434ca9bbb9e
+      internalID: -43693560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 326
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc795cc8e49553e4ead3d8ad6af561e0
+      internalID: 1990126290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 327
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7c097a7d8c2b741b1757e3744e6372
+      internalID: -940636113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 327
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be35acff57364e74a8266823c82ba469
+      internalID: 1394303604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 227
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02fceebf9ccfe8d40a9378b377977acf
+      internalID: -1339886330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 227
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3611262e80850d47b707f56bbaf7c2a
+      internalID: -1685228942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 227
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8a74f3a2809aa42a4957109c78fb71
+      internalID: 1203692995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 227
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53113faacdb7fd4b9b4404afe0d501d
+      internalID: 1403462196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 227
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b15dabf792c4124892a9b216fbe0615
+      internalID: -1692311076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 227
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25038ca73177a14d94f2859e1211583
+      internalID: 848723316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 227
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d642da973d1bc241b2958216b6482ec
+      internalID: -755813474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 228
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5f8b3ffe72d6a4e95d68b37617f2cf
+      internalID: 1793087559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f01aac964e99c41a640e742110ef9e
+      internalID: -1669442570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 128
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b8536b078878e4da9bddff51e95247
+      internalID: -37630415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 129
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208460fff5915a94ea47699a1caa6677
+      internalID: 1332885154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 129
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffe84529dfde5e4bab8399f9eedc8b9
+      internalID: -2088834990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 129
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1bb9e0ed6214b4b9b55b945d9c683c
+      internalID: 1066981657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 129
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b2e4da565e47846a9f514976e71639
+      internalID: -1399690741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 127
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5e87affbea84541ae49f4f2e58d5a9
+      internalID: 1487388564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 125
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada16cf546914334b86900f46eff46e1
+      internalID: -276675177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 25
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e5375ecba61ad54eb81b9074e5e510a
+      internalID: 1708382413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 26
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a762130ee4e14744affa1d5159fa7fc
+      internalID: 135453034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 26
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6e6557c649a9247aa861f45e2d9c73
+      internalID: 1190099000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 26
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cca9750a08c2734c9606f0ee0041091
+      internalID: -119931819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 26
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e20ae7d01e5f5c4da52295911878021
+      internalID: -2005677217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 756
+        width: 13
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdec6f218d3adb2488d059db4e96b583
+      internalID: -363538819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 743
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d40322e7b79fab46a3e3046e7f7df65
+      internalID: 8218607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 634
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8827dd9c90c17a429360ff3aaf60768
+      internalID: 423566001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 628
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d736a651e1874545a0bc500541fe9af
+      internalID: 1368351801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 448
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2140e434a4d938444aa8ba916cdf0bbb
+      internalID: -1400028698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 448
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0548c36e669e44fa43eb58e4e8eb5a
+      internalID: -763098847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 448
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da68039339dfb14581a67bd1a8917ed
+      internalID: -1234993666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 448
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4adfe21fe7c7e37468f579619542da15
+      internalID: 1985824543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 435
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058aa20746bdfb94cb6db5356653f865
+      internalID: -1327731007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 343
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87042e11c5498243b92bc2af65a5616
+      internalID: 228097399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 343
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67e38cf7e3476d42a79829264225dee
+      internalID: -666969299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 243
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083ccc6f0c425c7468766a294b1ed063
+      internalID: 1449918200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 243
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebcffd2ef51a3b54ba70d5088de21253
+      internalID: -1462955907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 243
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0dd664259a822d4abf0a4a201ec3ac6
+      internalID: 441820260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 232
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6d2f24a0f857c458802fdc40ca7dfd
+      internalID: 1811811234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 232
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df21b081c53e7e47acf41419fc549e5
+      internalID: 1244285160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 133
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef56385d950c9be4080d79bd71140b3d
+      internalID: -1707325255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 136
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278164a8752ed09469348a5fb2a9f8ad
+      internalID: -965545277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 128
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739e1ba5e614cf84c8de746c355d7a03
+      internalID: 1884166543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 128
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5a32c43b2f54a4b9af47ed901da7d9
+      internalID: -1363117402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 40
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd3e8c62798a25489d63fd0d93d46db
+      internalID: -1757986509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 40
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bea2b531249eb64ea102b78be74d7aa
+      internalID: 960952344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7_firespin_spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 40
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be3d542f77eaac40a2683e7e17bd9b0
+      internalID: -530740817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      7_firespin_spritesheet_66: -37630415
+      7_firespin_spritesheet_25: 1055425880
+      7_firespin_spritesheet_37: 1985824543
+      7_firespin_spritesheet_10: -1246225490
+      7_firespin_spritesheet_54: -1462955907
+      7_firespin_spritesheet_62: 1793087559
+      7_firespin_spritesheet_32: -924059324
+      7_firespin_spritesheet_46: -43693560
+      7_firespin_spritesheet_43: 346243237
+      7_firespin_spritesheet_20: -1950731507
+      7_firespin_spritesheet_61: -755813474
+      7_firespin_spritesheet_64: 1244285160
+      7_firespin_spritesheet_24: -1290458314
+      7_firespin_spritesheet_33: -763098847
+      7_firespin_spritesheet_71: 1487388564
+      7_firespin_spritesheet_53: -1339886330
+      7_firespin_spritesheet_16: -1845856079
+      7_firespin_spritesheet_73: -276675177
+      7_firespin_spritesheet_80: 960952344
+      7_firespin_spritesheet_75: 1884166543
+      7_firespin_spritesheet_3: -363538819
+      7_firespin_spritesheet_4: 2066736773
+      7_firespin_spritesheet_29: -862801420
+      7_firespin_spritesheet_0: -1653137464
+      7_firespin_spritesheet_13: -536086844
+      7_firespin_spritesheet_17: -249841770
+      7_firespin_spritesheet_35: -1234993666
+      7_firespin_spritesheet_65: -1669442570
+      7_firespin_spritesheet_58: 1403462196
+      7_firespin_spritesheet_31: -1400028698
+      7_firespin_spritesheet_2: 1017225109
+      7_firespin_spritesheet_21: -25054611
+      7_firespin_spritesheet_44: -1396001744
+      7_firespin_spritesheet_47: 1990126290
+      7_firespin_spritesheet_49: -940636113
+      7_firespin_spritesheet_67: 1332885154
+      7_firespin_spritesheet_76: -1363117402
+      7_firespin_spritesheet_26: -1285970853
+      7_firespin_spritesheet_52: 1449918200
+      7_firespin_spritesheet_45: -2009269780
+      7_firespin_spritesheet_22: -14547078
+      7_firespin_spritesheet_55: -1685228942
+      7_firespin_spritesheet_15: 423566001
+      7_firespin_spritesheet_23: -2103595248
+      7_firespin_spritesheet_11: -112567194
+      7_firespin_spritesheet_82: -530740817
+      7_firespin_spritesheet_72: -1707325255
+      7_firespin_spritesheet_41: -1327731007
+      7_firespin_spritesheet_79: 135453034
+      7_firespin_spritesheet_39: 894445434
+      7_firespin_spritesheet_1: -1578105693
+      7_firespin_spritesheet_36: 545858387
+      7_firespin_spritesheet_63: 1811811234
+      7_firespin_spritesheet_18: 1228294263
+      7_firespin_spritesheet_48: 228097399
+      7_firespin_spritesheet_83: -119931819
+      7_firespin_spritesheet_9: 8218607
+      7_firespin_spritesheet_40: -1810878427
+      7_firespin_spritesheet_50: -666969299
+      7_firespin_spritesheet_59: -1692311076
+      7_firespin_spritesheet_51: 1394303604
+      7_firespin_spritesheet_74: -965545277
+      7_firespin_spritesheet_60: 848723316
+      7_firespin_spritesheet_84: -2005677217
+      7_firespin_spritesheet_34: -73428153
+      7_firespin_spritesheet_78: -1757986509
+      7_firespin_spritesheet_56: 441820260
+      7_firespin_spritesheet_30: -1249798610
+      7_firespin_spritesheet_69: 1066981657
+      7_firespin_spritesheet_5: -1431239602
+      7_firespin_spritesheet_19: 1368351801
+      7_firespin_spritesheet_6: -233095404
+      7_firespin_spritesheet_12: 1249835390
+      7_firespin_spritesheet_81: 1190099000
+      7_firespin_spritesheet_77: 1708382413
+      7_firespin_spritesheet_28: 1353307853
+      7_firespin_spritesheet_38: -1211111725
+      7_firespin_spritesheet_57: 1203692995
+      7_firespin_spritesheet_14: -914392866
+      7_firespin_spritesheet_27: 631915424
+      7_firespin_spritesheet_68: -2088834990
+      7_firespin_spritesheet_42: 362218226
+      7_firespin_spritesheet_70: -1399690741
+      7_firespin_spritesheet_8: -1922864347
+      7_firespin_spritesheet_7: -1491086057
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
