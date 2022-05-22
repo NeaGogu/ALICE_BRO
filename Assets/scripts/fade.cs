@@ -41,7 +41,7 @@ public class fade : MonoBehaviour
             Background.color = ImageColor;
             yield return new WaitForSeconds(0.08f); //Wait
         }
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Endfall1");
         yield break;
     }
 
