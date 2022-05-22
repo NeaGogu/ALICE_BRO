@@ -15,12 +15,17 @@ public class Phone :Collider {
 	public DialogueTrigger triggerRabbit;
 	public Animator animator;
 	public DialogueManager dialogueManager;
+	
+	public AudioSource audioSource;
+
 	private bool startedConversation = false;
 	private float timeUntilRings;
 
 	private void Awake() {
 		animator.SetBool("isRinging", false);
 		timeUntilRings = Random.Range(5, 10);
+		audioSource.mute = true;
+
 	}
 
 	protected override void Update() {
@@ -29,22 +34,29 @@ public class Phone :Collider {
 
 		if (timeUntilRings < 0 && !startedConversation) {
 			animator.SetBool("isRinging", true);
+			
+			audioSource.mute = false;
 		}
 	}
 
 	protected override void OnCollide(Collider2D coll) {
+		// used to avoid recalling while colliding
 		if (!startedConversation && animator.GetBool("isRinging"))	{
 			startedConversation = true;
 			animator.SetBool("isRinging", false);
+			audioSource.Stop();
 			triggerRabbit.TriggerDialogue();
-			
 		}
-		
 	}
 	
 	void OnInteract(InputValue value)
 	{
 		Debug.Log(value);
+
+		if (!startedConversation) {
+			return;
+		}
+		
 		if (dialogueManager.sentencesRemaining() > 1) {
 			dialogueManager.DisplayNextSentence();
 			return;
