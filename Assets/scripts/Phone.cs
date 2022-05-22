@@ -1,8 +1,11 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
+using Random = UnityEngine.Random;
 
 public class Phone :Collider {
 
@@ -10,13 +13,31 @@ public class Phone :Collider {
 	private string scene;
 	
 	public DialogueTrigger triggerRabbit;
-
+	public Animator animator;
 	public DialogueManager dialogueManager;
 	private bool startedConversation = false;
+	private float timeUntilRings;
+
+	private void Awake() {
+		animator.SetBool("isRinging", false);
+		timeUntilRings = Random.Range(5, 10);
+	}
+
+	protected override void Update() {
+		base.Update();
+		timeUntilRings -= Time.deltaTime;
+
+		if (timeUntilRings < 0 && !startedConversation) {
+			animator.SetBool("isRinging", true);
+		}
+	}
+
 	protected override void OnCollide(Collider2D coll) {
-		if (!startedConversation )	{
+		if (!startedConversation && animator.GetBool("isRinging"))	{
 			startedConversation = true;
+			animator.SetBool("isRinging", false);
 			triggerRabbit.TriggerDialogue();
+			
 		}
 		
 	}
@@ -31,6 +52,7 @@ public class Phone :Collider {
 
 		if (dialogueManager.sentencesRemaining() == 0) {
 			dialogueManager.DisplayNextSentence();
+			animator.SetBool("isRinging", false);
 			Invoke("startNewGame", 5);
 		}
 	}

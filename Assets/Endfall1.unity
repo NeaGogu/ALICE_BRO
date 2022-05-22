@@ -923,6 +923,7 @@ GameObject:
   - component: {fileID: 896355434}
   - component: {fileID: 896355435}
   - component: {fileID: 896355436}
+  - component: {fileID: 896355437}
   m_Layer: 0
   m_Name: phone
   m_TagString: Untagged
@@ -1079,6 +1080,7 @@ MonoBehaviour:
   - Endfall1
   - Endfall1
   triggerRabbit: {fileID: 896355434}
+  animator: {fileID: 896355437}
   dialogueManager: {fileID: 769791443}
 --- !u!114 &896355436
 MonoBehaviour:
@@ -1110,6 +1112,26 @@ MonoBehaviour:
   m_DefaultActionMap: player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!95 &896355437
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896355428}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b2c5f83e7ddc6b64f94049e86ce010b4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &975408775
 GameObject:
   m_ObjectHideFlags: 0
