@@ -103936,6 +103936,14 @@ PrefabInstance:
       propertyPath: dialogueManager
       value: 
       objectReference: {fileID: 769791443}
+    - target: {fileID: 4247750332518981216, guid: 2938eef4c09ef854086df4f8dba9c8e2, type: 3}
+      propertyPath: sceneNames.Array.data[0]
+      value: scene3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4247750332518981216, guid: 2938eef4c09ef854086df4f8dba9c8e2, type: 3}
+      propertyPath: sceneNames.Array.data[1]
+      value: scene2
+      objectReference: {fileID: 0}
     - target: {fileID: 4247750332518981217, guid: 2938eef4c09ef854086df4f8dba9c8e2, type: 3}
       propertyPath: dialogue.sentences.Array.data[3]
       value: '<<Rabbit>> Choose or die miserably:
