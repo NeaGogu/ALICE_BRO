@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Endfall1.unity
     guid: 582dbcac306f5e8429a63903ca80e3f4
   - enabled: 1
+    path: Assets/Scenes/Endfall2.unity
+    guid: 2ee0a798d6f52574a865dd7c9cdc2f9f
+  - enabled: 1
     path: Assets/Scenes/scene1.unity
     guid: bc8e2fb4471681b46aa2d11a910d18fe
   - enabled: 1

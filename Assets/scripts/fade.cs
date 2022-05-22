@@ -9,7 +9,7 @@ public class fade : MonoBehaviour
 
     public SpriteRenderer Background;
     public Color ImageColor;
-
+    public string whatever;
     void Start()
     {
         ImageColor = Background.color;
@@ -41,7 +41,7 @@ public class fade : MonoBehaviour
             Background.color = ImageColor;
             yield return new WaitForSeconds(0.08f); //Wait
         }
-        SceneManager.LoadScene("Endfall1");
+        SceneManager.LoadScene(whatever);
         yield break;
     }
 
