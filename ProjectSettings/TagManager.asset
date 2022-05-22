@@ -46,3 +46,6 @@ TagManager:
   - name: Decorations
     uniqueID: 3374203853
     locked: 0
+  - name: Actor
+    uniqueID: 2258614451
+    locked: 0

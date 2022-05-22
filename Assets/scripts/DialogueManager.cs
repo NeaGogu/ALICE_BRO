@@ -34,6 +34,10 @@ public class DialogueManager : MonoBehaviour {
         DisplayNextSentence();
     }
 
+    public int sentencesRemaining() {
+        return sentences.Count;
+    }
+    
     public void DisplayNextSentence() {
         if (sentences.Count == 0) {
             EndDialogue();
@@ -41,7 +45,7 @@ public class DialogueManager : MonoBehaviour {
         }
         
         string sentence = sentences.Dequeue();
-        Debug.Log("Sentence: " + sentence);
+      
         StopAllCoroutines();
         StartCoroutine(TypeSentence(personName + sentence));
     }
